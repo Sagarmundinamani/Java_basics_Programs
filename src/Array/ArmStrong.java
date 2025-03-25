@@ -1,10 +1,12 @@
-package Arrays;
+package Array;
 
-import java.sql.SQLOutput;
+import java.util.Scanner;
 
 public class ArmStrong {
     public static void main(String[] args) {
-        int num = 153;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the number");
+        int num =sc.nextInt();
         int temp=num;
         int count = 0;
         int copyof=num;
@@ -13,9 +15,9 @@ public class ArmStrong {
             count++;
         }
         if(armstrong(temp,count)==temp){
-            System.out.println("Armstrong");
+            System.out.println(temp+" Armstrong number");
         }else{
-            System.out.println("not Armstrong" );
+            System.out.println(temp+" not Armstrong number" );
         }
     }
 

@@ -1,4 +1,4 @@
-package Arrays;
+package Array;
 
 public class Perfect {
     public static void main(String[] args) {

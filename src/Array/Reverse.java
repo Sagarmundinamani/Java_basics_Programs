@@ -1,4 +1,4 @@
-package Arrays;
+package Array;
 
 public class Reverse{
     public static void main(String[] args) {
