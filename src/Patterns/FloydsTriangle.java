@@ -8,12 +8,17 @@ public class FloydsTriangle {
         System.out.println("enter the number");
         int n = sc.nextInt();
         int number = 1;
+        int num = 0;
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= i; j++) {
-                System.out.print(number + " ");
-                number++;
+                if (j % 2 == 0) {
+                    System.out.print(num + " ");
+                } else {
+                    System.out.print(number + " ");
+                }
             }
-            System.out.println();
+                System.out.println();
+            }
         }
-    }
+
 }
