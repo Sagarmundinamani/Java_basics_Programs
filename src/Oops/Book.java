@@ -13,4 +13,10 @@ public class Book {
     public String toString(){
     return "name:"+name+"author:"+author+"price:"+price;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        Book b=(Book) obj;
+        return this.name== b.name && this.author== b.author;
+    }
 }
