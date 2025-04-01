@@ -10,7 +10,7 @@ public class Student {
         this.rollno=rollno;
     }
     public String toString(){
-        return "name:"+name+"rollno:"+rollno;
+        return "name: "+ name +"rollno: "+ rollno;
     }
 
     @Override
