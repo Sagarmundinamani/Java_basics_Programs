@@ -16,7 +16,7 @@ public class Book {
 
     @Override
     public boolean equals(Object obj) {
-        Book b=(Book) obj;
-        return this.name== b.name && this.author== b.author;
+        Book b=(Book) obj;//downcasting
+        return this.name == b.name && this.author == b.author;
     }
 }
