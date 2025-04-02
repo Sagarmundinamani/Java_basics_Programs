@@ -1,14 +1,19 @@
 package Exception;
 
+import java.util.Scanner;
+
 public class new1 {
     public static void main(String[] args) {
-        System.out.println("start");
-        int a = 10, b = 10;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("scanner open");
+        int arr[]={1,2,3};
         try {
-            System.out.println(a / b);
-        } catch (ArithmeticException e1) {
+            System.out.println(arr[5]);
+        } catch (Exception naveen) {
             System.out.println("problem occerd!");
+        }finally {
+            System.out.println("scanner closed");
+            sc.close();
         }
-        System.out.println("end");
     }
 }
