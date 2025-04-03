@@ -1,12 +1,13 @@
 package Wrapper;
 
-public class Boxing {
+public class unboxing {
     public static void main(String[] args) {
         int a=25;
         Integer i=Integer.valueOf(a);//boxing
         System.out.println(i);
-        int b=30;
-        Integer i2=b;//autoboxing
-        System.out.println(i2);
+        Integer i2=a;//auto-boxing
+        int a2=i.intValue();//unboxing
+        System.out.println(a2);
+        int a3=i;//auto-unboxing
     }
 }
