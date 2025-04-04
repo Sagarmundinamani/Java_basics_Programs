@@ -9,6 +9,7 @@ public class HashSetdemo {
         h1.add(76);
         h1.add(32);
         h1.add(54);
+        h1.add(31);
         System.out.println(h1);
     }
 }
