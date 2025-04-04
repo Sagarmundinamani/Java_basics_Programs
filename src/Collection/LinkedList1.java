@@ -10,5 +10,7 @@ public class LinkedList1 {
         l1.add(true);
         l1.add('s');
         System.out.println(l1);
+        l1.add(1,"virat");
+        System.out.println(l1);
     }
 }
