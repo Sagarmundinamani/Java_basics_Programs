@@ -21,5 +21,7 @@ public class Gcdfind {
         int n2= sc.nextInt();
         int m=gcdNumber(n1,n2);
         System.out.println("the gcd of the number "+m);
+        System.out.println("sandwich per student "+n1/m);
+        System.out.println("frooty per student "+n1/m);
     }
 }
